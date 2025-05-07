@@ -15,7 +15,7 @@ connectDB();
 
 // Middleware
 app.use(cors({
-  origin: ["http://localhost:5173"],
+  origin: ["https://mern-role-auth-clientfeedback-app-frontend.vercel.app"],
   methods: ["GET", "POST", "DELETE", "PUT"],
   allowedHeaders: ["Content-Type", "Authorization"],  // Allow necessary headers
   credentials: true
